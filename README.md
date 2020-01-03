@@ -20,10 +20,10 @@ https://kafka.apache.org/21/javadoc/org/apache/kafka/common/config/provider/Conf
 
 1. Clone project and build Jar file.
 
-- To test the main function in a local dev env, put these jar files into `src/main/lib`:
-- connect-2.1.0.jar https://mvnrepository.com/artifact/org.apache.kafka/connect-api/2.1.0
-- json-20190722.jar https://mvnrepository.com/artifact/org.json/json/20190722
-- kafka-clients-2.1.0.jar https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients/2.1.0
+* To test the main function in a local dev env, put these jar files into `src/main/lib`:
+  * connect-2.1.0.jar https://mvnrepository.com/artifact/org.apache.kafka/connect-api/2.1.0
+  * json-20190722.jar https://mvnrepository.com/artifact/org.json/json/20190722
+  * kafka-clients-2.1.0.jar https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients/2.1.0
 
 2. Put your final Jar file, say KafkaVaultProvider.jar, under the Kafka worker plugin folder. Default is /usr/share/java. PLUGIN_PATH in the Kafka worker config file.
 
