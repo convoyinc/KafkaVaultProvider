@@ -1,0 +1,3 @@
+# reference https://github.com/axbaretto/kafka/blob/master/clients/src/main/resources/META-INF/services/org.apache.kafka.common.config.provider.ConfigProvider
+com.convoy.KafkaVaultProvider.KafkaVaultProvider
+org.apache.kafka.common.config.provider.FileConfigProvider
